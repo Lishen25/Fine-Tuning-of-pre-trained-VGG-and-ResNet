@@ -1,0 +1,52 @@
+# ===== Project-specific =====
+dataset/
+output/
+__pycache__/
+*.pth
+*.pt
+*.ckpt
+*:Zone.Identifier
+
+# ===== Python cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Jupyter / Notebook =====
+.ipynb_checkpoints/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Conda =====
+.conda/
+conda-meta/
+
+# ===== VS Code / JetBrains =====
+.vscode/
+.idea/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+*.swp
+
+# ===== Python packaging / build =====
+build/
+dist/
+*.egg-info/
+
+# ===== Model / training artifacts =====
+*.pth
+*.pt
+*.ckpt
+
+# ===== Optional: keep output folder itself out of repo =====
+# Already covered by output/
